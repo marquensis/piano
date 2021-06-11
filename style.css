@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #DDA0DD;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 320px;
+    align-items: start;
+    margin-top: 200px;
+    text-align: center;
+    border: 2px solid white;
+    flex-wrap: nowrap;
+}
+.white-keys kbd {
+    display: inline-block;
+    width: 78px;
+    height: 316px;
+    background: white;
+    color: black;
+    font-family: 'Teko', sans-serif;
+    border: 2px solid grey;
+    z-index: 1;
+}
+.black-keys kbd {
+    display: inline-block;
+    position: absolute;
+    background: black;
+    z-index: 3;
+    border: 2px solid gray;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    height: 150px;
+    width: 50px;
+}
+#W {
+    margin-left: -540px;
+}
+#E {
+    margin-left: -450px;
+}
+#T {
+    margin-left: -280px;
+}
+#Y {
+    margin-left: -200px;
+}
+#U {
+    margin-left: -100px;
+}
